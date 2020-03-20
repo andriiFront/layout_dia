@@ -1,0 +1,17 @@
+.slider {
+  background: url("../images/slider/slide-img-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  .slider__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: solid red 1px;
+    position: absolute;
+    width: 360px;
+    height: 68px;
+    left: 48px;
+    bottom: 48px; }
+
+/*# sourceMappingURL=slider.css.map */

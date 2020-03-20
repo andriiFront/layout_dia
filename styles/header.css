@@ -1,0 +1,85 @@
+.header {
+  height: 800px;
+  color: #fff;
+  background-color: yellowgreen; }
+  @media screen and (max-width: 750px) {
+    .header {
+      height: 564px; } }
+  .header__container {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 227px;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-top: 52px;
+    height: 100%;
+    position: relative;
+    overflow: hidden; }
+    @media screen and (max-width: 1100px) {
+      .header__container {
+        padding: 30px 30px 0; } }
+  .header__top {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .header__nav {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 761px; }
+    @media screen and (max-width: 1100px) {
+      .header__nav {
+        padding: 0 30px; } }
+  .header__action {
+    position: relative;
+    height: 18px;
+    width: 76px;
+    font-family: Poppins, roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px; }
+    .header__action::after {
+      content: " ";
+      position: absolute;
+      width: 96%;
+      height: 2px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      border: solid #fff 1px;
+      border-radius: 1px;
+      bottom: -12px;
+      left: 0; }
+      @media screen and (max-width: 750px) {
+        .header__action::after {
+          display: none; } }
+  .header__link {
+    -webkit-transition: color 0.3s;
+    transition: color 0.3s;
+    padding: 10px 0;
+    color: white; }
+    .header__link:hover {
+      color: red; }
+    .header__link-light:hover {
+      color: #d3d9e2; }
+  .header__title {
+    font-family: poppins, roboto, sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2px; }
+  .header__text {
+    font-size: 18px;
+    display: block;
+    width: 362px; }
+  .header__slider {
+    outline: 1px solid red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 687px;
+    height: 680px; }
+
+/*# sourceMappingURL=header.css.map */
