@@ -5,5 +5,11 @@
   background-position: center;
   width: 50px;
   height: 26px; }
+  .logo__link {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .logo__link:hover {
+      cursor: pointer; }
 
 /*# sourceMappingURL=logo.css.map */

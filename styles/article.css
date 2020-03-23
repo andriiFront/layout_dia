@@ -1,0 +1,40 @@
+.article {
+  text-align: center; }
+  .article__link {
+    color: black;
+    -webkit-transition: color red;
+    transition: color red;
+    font-size: inherit; }
+    .article__link:hover {
+      color: red; }
+  .article__image {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    -webkit-transition: -webkit-transform 0.8s;
+    transition: -webkit-transform 0.8s;
+    transition: transform 0.8s;
+    transition: transform 0.8s, -webkit-transform 0.8s; }
+    .article__image:hover {
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2); }
+  .article__heading {
+    margin-top: 45px;
+    font-family: poppins, roboto, sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    color: #253757; }
+  .article__text {
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    color: #253757; }
+  .article__subheading {
+    font-size: 14px;
+    color: red; }
+
+/*# sourceMappingURL=article.css.map */

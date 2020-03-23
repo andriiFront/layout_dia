@@ -1,0 +1,59 @@
+.main {
+  max-width: 1600px;
+  margin: 0 auto; }
+  .main__container {
+    margin: 0 auto;
+    padding: 0 227px; }
+    @media screen and (max-width: 1400px) {
+      .main__container {
+        padding: 50px 150px 0; } }
+    @media screen and (max-width: 1250px) {
+      .main__container {
+        padding: 0 100px; } }
+    @media screen and (max-width: 950px) {
+      .main__container {
+        padding: 0 70px; } }
+    @media screen and (max-width: 750px) {
+      .main__container {
+        padding: 0 77px; } }
+    @media screen and (max-width: 580px) {
+      .main__container {
+        padding: 0 45px; } }
+    @media screen and (max-width: 400px) {
+      .main__container {
+        padding: 0 30px; } }
+  .main__info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 504px; }
+    @media screen and (max-width: 1050px) {
+      .main__info {
+        height: 380px; } }
+    @media screen and (max-width: 950px) {
+      .main__info {
+        height: 290px;
+        -webkit-box-pack: start;
+            -ms-flex-pack: start;
+                justify-content: flex-start; } }
+  .main__testimonials {
+    padding-top: 136px;
+    height: 759px; }
+    @media screen and (max-width: 780px) {
+      .main__testimonials {
+        padding-top: 30px;
+        height: 959px; } }
+    @media screen and (max-width: 780px) {
+      .main__testimonials {
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding: 30px; } }
+
+/*# sourceMappingURL=main-content.css.map */
