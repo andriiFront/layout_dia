@@ -47,7 +47,8 @@
     @media screen and (max-width: 1150px) {
       .process__numbered-cards {
         margin-top: 30px;
-        grid-template-columns: 1fr 1fr; } }
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto; } }
     @media screen and (max-width: 1150px) {
       .process__numbered-cards {
         margin-top: 30px;
@@ -59,7 +60,7 @@
   .process__offset-card {
     position: relative;
     top: 132px; }
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 1150px) {
       .process__offset-card {
         position: static; } }
 

@@ -1,6 +1,7 @@
 .main {
   max-width: 1600px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
   .main__container {
     margin: 0 auto;
     padding: 0 227px; }
@@ -13,9 +14,6 @@
     @media screen and (max-width: 950px) {
       .main__container {
         padding: 0 70px; } }
-    @media screen and (max-width: 750px) {
-      .main__container {
-        padding: 0 77px; } }
     @media screen and (max-width: 580px) {
       .main__container {
         padding: 0 45px; } }
@@ -62,6 +60,18 @@
             box-sizing: border-box; }
     @media screen and (max-width: 1150px) {
       .main__process {
-        padding-top: 80px; } }
+        height: -webkit-fit-content;
+        height: -moz-fit-content;
+        height: fit-content;
+        padding-top: 80px;
+        padding-bottom: 80px; } }
+  .main__approach {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
 
 /*# sourceMappingURL=main-content.css.map */
